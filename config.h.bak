@@ -150,19 +150,12 @@ unsigned int background = 258;
 
 /*
  * Default shape of cursor
- + * Default style of cursor
- + * 0: Blinking block
- + * 1: Blinking block (default)
- + * 2: Steady block ("â–ˆ")
- + * 3: Blinking underline
- + * 4: Steady underline ("_")
- + * 5: Blinking bar
- + * 6: Steady bar ("|")
- + * 7: Blinking st cursor
- + * 8: Steady st cursor
+ * 2: Block ("█")
+ * 4: Underline ("_")
+ * 6: Bar ("|")
+ * 7: Snowman ("☃")
  */
-static unsigned int cursorstyle = 5;
-static Rune stcursor = 0x2603; /* snowman (U+2603) */
+static unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
