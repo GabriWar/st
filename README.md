@@ -1,4 +1,4 @@
-# Luke's build of st - the simple (suckless) terminal
+# GabriWar's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator ever:
@@ -34,15 +34,6 @@ features that make it literally the best terminal emulator ever:
 + font2
 + updated to latest version 0.8.4
 
-## Installation for newbs
-
-You should have xlib header files and libharfbuzz build files installed.
-
-```
-git clone https://github.com/LukeSmithxyz/st
-cd st
-sudo make install
-```
 
 Obviously, `make` is required to build. `fontconfig` is required for the
 default build, since it asks `fontconfig` for your system monospace font. It
@@ -93,7 +84,3 @@ want to manually set your prefered emoji/special character font to a lower size
 in the `config.h` file to avoid this. By default, JoyPixels is used at a
 smaller size than the usual text.
 
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
